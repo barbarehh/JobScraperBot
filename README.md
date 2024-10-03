@@ -10,8 +10,8 @@ By using this tool, job seekers can avoid missing out on opportunities.
 - Identifies jobs published in the last 2 days.
 - Sends job details (title and link) via Telegram.
 - Runs in a loop, checking for new jobs every hour.
-- Avoids sending duplicate notifications.
-
+- Avoids sending duplicate notifications by storing the scraped jobs in a JSON file.
+  
 ## Screenshot
 
 Here's an example of a job notification sent by the bot via Telegram ^^:
